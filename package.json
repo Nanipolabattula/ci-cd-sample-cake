@@ -1,0 +1,27 @@
+{
+  "name": "ci-cd-sample-cake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nanipolabattula/ci-cd-sample-cake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nanipolabattula/ci-cd-sample-cake/issues"
+  },
+  "homepage": "https://github.com/Nanipolabattula/ci-cd-sample-cake#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
