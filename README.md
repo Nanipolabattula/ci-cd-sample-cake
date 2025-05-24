@@ -1,1 +1,1 @@
-# CI/CD Sample App
+# CI/CD sample app
