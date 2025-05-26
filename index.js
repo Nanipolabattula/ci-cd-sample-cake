@@ -1,6 +1,6 @@
 const http = require('http');
 
-const port = process.env.PORT || 3000;  // Use Azure's port or fallback to 3000 locally
+const port = process.env.PORT || 3000;  // <-- Use Azure's port if available
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -9,7 +9,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+  console.log(`Server running on port ${port}`);
 });
-
-
